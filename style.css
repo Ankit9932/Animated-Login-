@@ -1,0 +1,75 @@
+body{
+    background-color: rgba(48, 58, 59, 0.954)
+}
+.container{
+    background-color:rgb(31, 31, 31);
+    color: white;
+    margin: auto;
+    margin-top: 100px;
+    padding:25px;
+    height: 40vh;
+    width: 20vw;
+    text-align: center;
+    border-radius: 10px;
+
+}
+h1{
+    color: whitesmoke;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#username{
+    background-color: rgb(31, 31, 31);
+    color: whitesmoke;
+    border-radius: 25px;
+    height: 30px;
+    width: 180px;
+    border: 3px solid rgb(58, 154, 181);
+    text-align: center;
+}
+#username:hover{
+    border: 3px solid rgb(74, 186, 74);
+    color: whitesmoke;
+    width: 220px;
+}
+
+
+#password{
+    background-color: rgb(31, 31, 31);
+    color: whitesmoke;
+    border-radius: 25px;
+    height: 30px;
+    width: 180px;
+    border: 3px solid rgb(58, 154, 181);
+    text-align: center;
+}
+#password:hover{
+    border: 3px solid rgb(74, 186, 74);
+    color: whitesmoke;
+    width: 220px;
+}
+
+
+#btn{
+    background-color: rgb(31, 31, 31);
+    border-radius: 25px;
+    height: 30px;
+    width: 100px;
+    border: 3px solid rgb(74, 186, 74);
+    color: whitesmoke;
+    text-align: center;
+}
+#btn:hover{
+    background-color:rgb(74, 186, 74);
+    color: black;
+    width: 120px;
+    font-weight: bold;
+}
+
+
+@media (max-width:900px){
+    .container{
+        width: 40vw;
+    }
+}
